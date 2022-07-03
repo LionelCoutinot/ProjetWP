@@ -1,0 +1,153 @@
+/*
+Theme Name: Mon Thème
+Author: Coutinot Lionel
+*/
+
+@font-face {
+	font-family: "Open sans serif";
+	src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+   }
+
+body{
+	font-family:Segoe UI, Open sans serif;
+    font-size:16px;
+	text-align:justify;
+}
+	
+.custom-background {
+  background-image: url("public/images/render2.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  height:30vh !important; 
+}
+
+
+.opacity{
+	background-color: #11ffee00;
+}
+	
+.dark-color{
+background-color: rgba(00,00,00,0.4);
+}
+
+a {
+	text-decoration: none;
+	
+  }
+  
+#login-color a {
+	color:gold;
+	font-weight:bold;
+}
+
+
+.menu-color a{
+color:gold;
+font-weight:bold;
+}
+
+.menu-color a:hover{
+color:gold;
+font-weight:bold;
+}
+
+
+.title
+{   
+  text-align:center;
+  font-size:65px;  
+  text-shadow: 6px 6px 6px red;
+  font-style:italic;
+  font-weight:bold; 
+  color:#CCCC33;
+  text-transform:uppercase;
+  }
+  
+.title2
+{   
+  text-align:center;
+  font-size:65px;  
+  text-shadow: 6px 6px 6px red;
+  font-style:italic;
+  font-weight:bold; 
+  color:#CCCC33;
+  text-transform:uppercase;
+  }
+
+.title-blog
+{   
+  text-align:center;
+  font-size:50px;  
+  text-shadow: 6px 6px 6px green;
+  font-style:italic;
+  font-weight:bold; 
+  color:#FFFFCC;
+  text-transform:uppercase;
+  }
+
+.title-article
+{   
+  text-align:center;
+  font-size:25px;  
+  font-weight:bold; 
+}
+
+
+
+.author 
+{
+	font-size:16px;
+	font-weight:bold;
+	
+}
+
+
+
+.uppercase
+{
+  text-transform:uppercase;
+}
+
+
+.category
+{
+  font-size:14px;
+}
+
+
+.margin-projet {
+	margin-top:10%;
+}
+
+
+#marg-projet {
+	margin-top:2%;
+}
+
+#background-smoke {
+	background-color:ghostwhite;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+  margin-top: 0px;
+}
+
+.text-gold {
+  color:gold;
+}
+
+/*Rendre le parent d'un menu dropdown cliquable*/
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+  margin-top: 0px;
+}
+
+/*Fin de rendre le parent d'un menu  dropdown cliquable */
+
+
